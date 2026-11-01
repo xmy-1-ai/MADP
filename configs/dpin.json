@@ -1,0 +1,23 @@
+{
+  "variant": "dpin",
+  "vocab_size": 1001,
+  "context_dim": 8,
+  "num_positions": 20,
+  "history_length": 20,
+  "embedding_dim": 16,
+  "model_dim": 32,
+  "num_heads": 4,
+  "num_layers": 1,
+  "ffn_dim": 64,
+  "mlp_dims": [
+    64,
+    32
+  ],
+  "dropout": 0.1,
+  "adversarial_weight": 0.1,
+  "grl_strength": 1.0,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "epochs": 5,
+  "seed": 42
+}
