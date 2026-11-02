@@ -25,7 +25,7 @@ madp-paper/
 ```
 代码使用 TensorFlow/Keras，独立运行。论文主模型为 `madp_transformer`，同时提供 DIN 版本、消融实验和 PAL/DPIN 对比结构。
 
-本仓库按下列实验定义实现结构；未提供真实数据和论文结果，附带的合成数据仅用于验证运行流程。PAL、DPIN 是统一输入与训练条件下的基线适配，具体范围见 [结构说明](docs/architecture.md)。
+本仓库按下列实验定义实现结构：
 
 ## 实验结构
 
